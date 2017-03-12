@@ -16,35 +16,28 @@ git --bare init
 ```
 
 
-clone
------
-
-* <http://stackoverflow.com/questions/791959/how-to-use-git-to-download-a-particular-tag>
 
 
 
-* clone the repository ...
-```
-git clone https://github.com/FortAwesome/Font-Awesome.git
-git clone https://github.com/rlong/emacs.d
-```
+Branches
+========
 
 
 
-tags
+Tags
 ====
 
 
 create
 ------
 
-* create a tag:
+Create a tag:
 ```
 git tag -a 0.3.2.1 -m 'iteration 3.2'
 git tag -a 2015.8.24.2 -m '2015.8.24.2'
 ```
 
-* push tags after they are committed:
+Push tags after they are committed:
 ```
 git push --tags
 ```
@@ -53,23 +46,54 @@ git push --tags
 list (read)
 -----------
 
-list the tags …
+List the tags:
 ```
 git tag -l
 ```
 
-switching
----------
 
+commands
+========
+
+`checkout`
+----------
+
+Revert a change:
+```
+git checkout -- client/css/base.css
+```
+
+
+Switching based on tags:
 ```
 git checkout tags/0.3.2.1
 git checkout tags/v3.0.2
 ```
 
+`clone`
+-------
+
+* <http://stackoverflow.com/questions/791959/how-to-use-git-to-download-a-particular-tag>
 
 
-Submodules
-==========
+* clone the repository ...
+```
+git clone https://github.com/FortAwesome/Font-Awesome.git
+git clone https://github.com/rlong/emacs.d
+```
+
+`diff`
+------
+
+
+Changes associated with a commit
+```
+git diff dd71151623eb9c5edb1a89043acd608936596bbc^!
+```
+
+
+`submodule`
+-----------
 
 
 ```

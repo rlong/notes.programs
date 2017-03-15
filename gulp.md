@@ -70,5 +70,10 @@ gulp.task('concat', function () {
 ```
 
 
+invoke:
+```
+gulp concat
+```
+
 
 

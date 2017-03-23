@@ -1,5 +1,25 @@
 
 
+Short Cuts
+==========
+
+Editing
+-------
+
+* `CTRL-R`: rename symbol
+
+Navigation
+----------
+
+* `CTRL-F12`: Navigate into symbol (show options if ambiguous)
+
+
+Debugging
+---------
+
+* `F5`: continue
+* `F9`: toggle breakpoint
+
 Class View
 ==========
 

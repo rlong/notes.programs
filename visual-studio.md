@@ -6,6 +6,9 @@ Short Cuts
 Editing
 -------
 
+
+* `CTRL-K CTRL-C`: comment out selected block
+* `CTRL-K CTRL-U`: uncomment out selected block
 * `CTRL-R`: rename symbol
 
 Navigation

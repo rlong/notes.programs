@@ -13,10 +13,18 @@ Flags
 
 
 
+HTTP GET
+========
+
+```
+curl -v http://localhost:21318/NTJsonRequestHandler
+```
+
 HTTP POST
 =========
 
 ```
-curl -X POST  -d "{\"a\":1}" http://localhost:21318/NTJsonRequestHandler
+curl -v -X POST  -d "{\"a\":1}" http://localhost:21318/NTJsonRequestHandler
 ```
+
 

@@ -4,7 +4,7 @@
 Customised Key Mappings
 =======================
 
-* `COMAND` -> `Alt`
+* `Command` -> `Alt`
 * `Option` -> `Windows`
 * `Control-Delete` -> `Forward Delete`
 * `Control-Down` -> `Page Down`
@@ -20,6 +20,8 @@ Windows specific
 * `Control-Shift-A` -> `Shift-Home`
 * `Control-E` -> `End`
 * `Control-Shift-E` -> `Shift-End`
+* `Shift-Command-,` -> `Control-Home`
+* `Shift-Command-.` -> `Control-End`
 
 
 

@@ -4,24 +4,48 @@
 Customised Key Mappings
 =======================
 
+remap mac keyboard
+------------------
+
 * `Command` -> `Alt`
 * `Option` -> `Windows`
+
+other
+-----
+
 * `Control-Delete` -> `Forward Delete`
-* `Control-Down` -> `Page Down`
-* `Control-Up` -> `Page Up`
+
+
+navigation (with and without selection)
+---------------------------------------
+
+### line ###
+
+* `Control` `A` -> `Home`
+* `Control` `Shift` `A` -> `Shift-Home`
+* `Control` `E` -> `End`
+* `Control` `Shift` `E` -> `Shift` `End`
+
+### page ###
+
+* `Control` `Down` -> `Page Down`
+* `Control` `Shift` `Down` -> `Shift` `Page Down`
+* `Control` `Up` -> `Page Up`
+* `Control` `Shift` `Up` -> `Shift` `Page Up`
+
+### document ###
+
+* `Control` `Shift` `,` -> `Home`
+* `Control` `Shift` `.` -> `End`
+
 
 Windows specific
 ----------------
 
 * `Option-Space` -> `Space`
-* `Shift-Option-Space` -> `Space`
-* `Shift-Control-V` -> `Shift Insert`
-* `Control-A` -> `Home`
-* `Control-Shift-A` -> `Shift-Home`
-* `Control-E` -> `End`
-* `Control-Shift-E` -> `Shift-End`
-* `Shift-Command-,` -> `Control-Home`
-* `Shift-Command-.` -> `Control-End`
+* `Shift` `Option` `Space` -> `Space`
+* `Shift` `Control` `V` -> `Shift Insert`: Paste for Command prompt
+* `Command-A` -> `Control-A`: Select all 
 
 
 

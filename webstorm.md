@@ -11,9 +11,3 @@ Bookmarks
 
 
 
-Customised keys 
----------------
-
-* `Move Caret To Line Start`: CTRL-A
-* `Move Caret To Line End`: CTRL-E
-* `Select All`: ALT-A

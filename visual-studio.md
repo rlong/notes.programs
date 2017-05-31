@@ -23,6 +23,7 @@ Debugging
 * `F5`: continue
 * `F9`: toggle breakpoint
 
+
 Class View
 ==========
 
@@ -41,4 +42,11 @@ Synchronize Class View
 
 
 
+EDMX
+====
+
+generating result types for stored procedures (only use on read-only stored procedures):
+```
+SET FMTONLY OFF; -- http://stackoverflow.com/questions/7128747/ef4-the-selected-stored-procedure-returns-no-columns
+```
 

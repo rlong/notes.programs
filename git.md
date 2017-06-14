@@ -143,6 +143,14 @@ git log --graph --oneline --all
 git merge testing
 ```
 
+`remote`
+--------
+
+```
+git remote add github https://github.com/johnezang/JSONKit.git
+```
+
+
 
 `submodule`
 -----------

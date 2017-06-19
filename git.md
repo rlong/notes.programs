@@ -11,7 +11,7 @@ init
 
 ```
 mkdir test.git
-cd !#
+cd !$
 git --bare init
 ```
 

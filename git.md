@@ -11,7 +11,7 @@ init
 
 ```
 mkdir test.git
-cd !#
+cd !$
 git --bare init
 ```
 
@@ -105,6 +105,12 @@ git checkout tags/v3.0.2
 git clone https://github.com/FortAwesome/Font-Awesome.git
 git clone https://github.com/rlong/emacs.d
 ```
+
+* clone over ssh (http://stackoverflow.com/questions/14348874/git-repository-url-ssh-syntax-without-absolute-path) ...
+```
+git clone ssh://login@server.com:12345/~/repository.git
+```
+
 
 `diff`
 ------

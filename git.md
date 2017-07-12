@@ -16,9 +16,6 @@ git --bare init
 ```
 
 
-Branches
-========
-
 
 Tags
 ====
@@ -106,6 +103,17 @@ git clone https://github.com/FortAwesome/Font-Awesome.git
 git clone https://github.com/rlong/emacs.d
 ```
 
+`config`
+--------
+
+
+cache config for 24 hours (https://help.github.com/articles/caching-your-github-password-in-git/)
+
+```
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=86400'
+```
+
 `diff`
 ------
 
@@ -140,8 +148,19 @@ git merge testing
 `remote`
 --------
 
+add:
 ```
 git remote add github https://github.com/johnezang/JSONKit.git
+```
+
+list:
+```
+git remote -v
+```
+
+rename:
+```
+git remote rename origin github
 ```
 
 

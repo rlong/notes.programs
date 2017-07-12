@@ -9,12 +9,14 @@ Editing
 
 * `CTRL-K CTRL-C`: comment out selected block
 * `CTRL-K CTRL-U`: uncomment out selected block
-* `CTRL-R`: rename symbol
+* `CTRL-R CTRL-R`: rename symbol
 
 Navigation
 ----------
 
 * `CTRL-F12`: Navigate into symbol (show options if ambiguous)
+* `CTRL--`: Navigate back
+* `CTRL-SHIFT--`: Navigate forward
 
 
 Debugging
@@ -23,6 +25,11 @@ Debugging
 * `F5`: continue
 * `F9`: toggle breakpoint
 
+
+Regions
+-------
+
+* `CTRL`-`M`-`L`: Expand all regions
 
 Class View
 ==========

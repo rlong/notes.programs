@@ -11,7 +11,7 @@ init
 
 ```
 mkdir test.git
-cd !#
+cd !$
 git --bare init
 ```
 
@@ -103,6 +103,7 @@ git clone https://github.com/FortAwesome/Font-Awesome.git
 git clone https://github.com/rlong/emacs.d
 ```
 
+
 `config`
 --------
 
@@ -112,6 +113,14 @@ cache config for 24 hours (https://help.github.com/articles/caching-your-github-
 ```
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=86400'
+```
+
+`clone`
+=======
+
+* clone over ssh (http://stackoverflow.com/questions/14348874/git-repository-url-ssh-syntax-without-absolute-path) ...
+```
+git clone ssh://login@server.com:12345/~/repository.git
 ```
 
 `diff`
@@ -130,7 +139,6 @@ git diff dd71151623eb9c5edb1a89043acd608936596bbc^!
 ```
 git log -n 1
 ```
-
 
 * pictoral representation of git branches
 ```
@@ -164,11 +172,10 @@ git remote rename origin github
 ```
 
 
-
 `submodule`
 -----------
 
-
+add:
 ```
 git submodule add https://github.com/rlong/cocoa.lib.NodeTree
 ```

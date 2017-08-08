@@ -30,4 +30,13 @@ curl -X POST  -d "{\"a\":1}" http://localhost:21318/NTJsonRequestHandler
 curl -X POST --data-binary  @file.json http://localhost:21318/NTJsonRequestHandler
 ```
 
+post with data (from bash) ...
+```
+DATA=$(cat <<-EOD
+{
+}
+EOD
+)
+curl -X POST  -d "$DATA" http://localhost:21318/NTJsonRequestHandler
+```
 

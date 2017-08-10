@@ -5,44 +5,10 @@ Setup
 =====
 
 
-init
-----
-
-
-```
-mkdir test.git
-cd !$
-git --bare init
-```
 
 
 
-Tags
-====
 
-
-create
-------
-
-Create a tag:
-```
-git tag -a 0.3.2.1 -m 'iteration 3.2'
-git tag -a 2015.8.24.2 -m '2015.8.24.2'
-```
-
-Push tags after they are committed:
-```
-git push --tags
-```
-
-
-list (read)
------------
-
-List the tags:
-```
-git tag -l
-```
 
 
 commands
@@ -178,4 +144,55 @@ git remote rename origin github
 add:
 ```
 git submodule add https://github.com/rlong/cocoa.lib.NodeTree
+```
+
+`tag`
+-----
+
+
+create:
+```
+git tag -a 0.3.2.1 -m 'iteration 3.2'
+git tag -a 2015.8.24.2 -m '2015.8.24.2'
+```
+
+Push tags after they are committed:
+```
+git push --tags
+```
+
+list:
+```
+git tag -l
+```
+
+
+Cook Book
+=========
+
+initialise a bare repository
+----------------------------
+
+```
+mkdir test.git
+cd !$
+git --bare init
+```
+
+rename a remote branch
+----------------------
+
+* [branch - git: renaming branches remotely? - Stack Overflow](https://stackoverflow.com/questions/4753888/git-renaming-branches-remotely)
+
+```
+git branch new-branch-name origin/old-branch-name
+git push origin --set-upstream new-branch-name
+git push origin :old-branch-name
+```
+
+clean up
+```
+git checkout new-branch-name
+git fetch origin
+git remote prune origin
 ```

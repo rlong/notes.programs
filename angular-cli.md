@@ -1,5 +1,18 @@
 
 
 
+Generate
+========
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+You can use `ng generate directive/pipe/service/class/module`.
+
+Generate a component:
+```
+ng generate component component-name
+```
+
+Generate a service:
+```
+ng generate service service-name
+```
+

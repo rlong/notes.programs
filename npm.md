@@ -2,6 +2,7 @@
 
 
 
+
 install
 =======
 
@@ -20,3 +21,17 @@ sudo npm install typings --global
 sudo npm install -g npm-check-updates
 ```
 
+ls
+==
+
+list globally installed pacakges:
+```
+npm ls --global --depth 0
+```
+
+view
+====
+
+```
+npm view ionic versions
+```

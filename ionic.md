@@ -29,12 +29,17 @@ ionic serve
 ```
 
 
-Misc
-====
+Commands
+========
 
 Add a page:
 ```
 ionic g page local-notifications
 ionic g provider chat-notification
+```
+
+Create a component:
+```
+ionic generate component Developer
 ```
 

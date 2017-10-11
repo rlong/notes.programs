@@ -196,3 +196,11 @@ git checkout new-branch-name
 git fetch origin
 git remote prune origin
 ```
+
+.gitignore
+==========
+
+```
+# emacs backups
+*~
+```

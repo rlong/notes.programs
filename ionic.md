@@ -35,6 +35,7 @@ Commands
 Add a page:
 ```
 ionic g page local-notifications
+ionic g page ControlPrimary
 ionic g provider chat-notification
 ```
 

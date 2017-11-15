@@ -20,3 +20,12 @@ sudo npm install typings --global
 sudo npm install -g npm-check-updates
 ```
 
+
+
+ls
+==
+
+
+```
+npm ls --global --depth 0
+```

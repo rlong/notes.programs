@@ -4,6 +4,7 @@
 Cook book
 =========
 
+
 initialise a bare repository
 ----------------------------
 
@@ -12,6 +13,7 @@ mkdir test.git
 cd !$
 git --bare init
 ```
+
 
 rename a remote branch
 ----------------------
@@ -24,7 +26,10 @@ git push origin --set-upstream new-branch-name
 git push origin :old-branch-name
 ```
 
+
 clean up
+--------
+
 ```
 git checkout new-branch-name
 git fetch origin
@@ -187,3 +192,13 @@ list:
 git tag -l
 ```
 
+
+-------------------------------------------------------------------------------
+
+.gitignore
+==========
+
+```
+# emacs backups
+*~
+```

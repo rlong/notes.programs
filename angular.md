@@ -9,7 +9,6 @@ generate
 
 create in a component in a module 
 ```
-ng generate module BackOffice
 ng generate component BackOffice/Announcement
 ```
 

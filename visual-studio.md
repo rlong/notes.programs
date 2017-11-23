@@ -47,6 +47,13 @@ Synchronize Class View
 * `Tools` -> `Options` -> `Environment` -> `Keyboard`
 * bind `Ctrl`+`Shift`+`C` to `View.SynchronizeClassView`
 
+Shelvesets
+==========
+
+* Select the Shelve button in Pending Changes
+* Give the shelveset a meaningful name
+* You can choose to keep the changes locally via the check-box.
+* Click on the shelve button
 
 
 EDMX

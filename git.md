@@ -1,17 +1,43 @@
 
 
 
-Setup
-=====
+Cook book
+=========
 
 
+initialise a bare repository
+----------------------------
+
+```
+mkdir test.git
+cd !$
+git --bare init
+```
 
 
+rename a remote branch
+----------------------
+
+* [branch - git: renaming branches remotely? - Stack Overflow](https://stackoverflow.com/questions/4753888/git-renaming-branches-remotely)
+
+```
+git branch new-branch-name origin/old-branch-name
+git push origin --set-upstream new-branch-name
+git push origin :old-branch-name
+```
 
 
+clean up
+--------
+
+```
+git checkout new-branch-name
+git fetch origin
+git remote prune origin
+```
 
 
-commands
+Commands
 ========
 
 
@@ -171,35 +197,7 @@ git tag -l
 ```
 
 
-Cook Book
-=========
-
-initialise a bare repository
-----------------------------
-
-```
-mkdir test.git
-cd !$
-git --bare init
-```
-
-rename a remote branch
-----------------------
-
-* [branch - git: renaming branches remotely? - Stack Overflow](https://stackoverflow.com/questions/4753888/git-renaming-branches-remotely)
-
-```
-git branch new-branch-name origin/old-branch-name
-git push origin --set-upstream new-branch-name
-git push origin :old-branch-name
-```
-
-clean up
-```
-git checkout new-branch-name
-git fetch origin
-git remote prune origin
-```
+-------------------------------------------------------------------------------
 
 .gitignore
 ==========

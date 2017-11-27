@@ -69,6 +69,10 @@ git clone https://github.com/FortAwesome/Font-Awesome.git
 git clone https://github.com/rlong/emacs.d
 ```
 
+* clone a specifc branch [How to clone a specific Git branch? - Stack Overflow](https://stackoverflow.com/questions/1911109/how-to-clone-a-specific-git-branch)) 
+```
+git clone -b my-branch git@github.com:user/myproject.git
+```
 
 `config`
 --------

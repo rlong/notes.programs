@@ -32,15 +32,19 @@ ionic serve
 Commands
 ========
 
-Add a page:
+Generate a page:
 ```
 ionic g page local-notifications
 ionic g page ControlPrimary
-ionic g provider chat-notification
 ```
 
-Create a component:
+Generate a component:
 ```
 ionic generate component Developer
 ```
 
+Generate a service:
+```
+ionic g provider chat-notification
+ionic g provider geolocation
+```

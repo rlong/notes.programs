@@ -81,6 +81,7 @@ Switching based on tags:
 ```
 git checkout tags/0.3.2.1
 git checkout tags/v3.0.2
+git checkout tags/18.02.19.01
 ```
 
 `clone`
@@ -185,6 +186,12 @@ create:
 git tag -a 0.3.2.1 -m 'iteration 3.2'
 git tag -a 2015.8.24.2 -m '2015.8.24.2'
 ```
+
+create for specific commit:
+```
+git tag -a 18.02.19.01 -m 18.02.19.01 5cc5ac44899693dd7941c63dc1ab8919a6e5188b
+```
+
 
 Push tags after they are committed:
 ```
